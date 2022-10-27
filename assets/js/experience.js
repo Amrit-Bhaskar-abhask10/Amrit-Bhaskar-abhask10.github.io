@@ -16,14 +16,14 @@ const exp = [
     cardImage: "assets/images/experience-page/tiger_analytics.png",
     place: "Tiger Analytics, Bengaluru, India",
     time: "(Nov, 2019 - July, 2021)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    desp: "<li>Demand Forecasting for Taco Bell: Developed a demand forecasting framework for Taco Bell. The error between the actual and predicted results was at least 10% better on average than the client’s base model.</li><li>AutoML Code Template: Developed an AutoML code template in pyspark for a Machine Learning Pipeline with Integrated Data discovery, Data processing, and Model building for solving frequent use cases and projects.</li><li>Advisor segmentation for Equitable: Developed an advisor segmentation model for one of the American financial services and insurance companies based on agent’s tenure, asset under management, products sold, etc.</li><li>90-day lapse model for Confie: Developed a 90-day customer policy lapse model with 82% accuracy.</li>",
   },
   {
-    title: "Research Intern",
+    title: "Project Engineer",
     cardImage: "assets/images/experience-page/wipro.jpeg",
     place: "Wipro, Bengaluru, India",
     time: "(Aug, 2017 - Oct, 2019)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    desp: "<li>Relation Extraction: Developed supervised DL models using CNN and attention-based bi-LSTM with ELMO embeddings with 0.8 F-1 scores. Built, Presented, and Delivered frontend UI for internal use using Tkinter.</li><li>Sequence tagging: Built a deep learning model for sequence tagging for accurate information extraction using GAN-based transfer learning between distant domains. Enhanced accuracy by 10% over the state-of-art results.</li><li>Intent Detection with Zero-Shot Learning: Built an intent classification model using CNN and Capsule Network. Used zero-shot learning on intents when no labeled utterances are present with a 0.76 F1 score.</li><li>Neural Machine Translation: Assessed and Tested approaches like Attention-based seq2seq and Transformer to create a single multilingual model for 7 Indian languages, achieved a BLEU score of 26.25 for Hindi-English.</li><li>Document Clustering: Built an unsupervised document clustering model using K-means with 75% accuracy.</li>",
   },
 ];
 
