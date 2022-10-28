@@ -32,31 +32,30 @@ const research = [
     image: "assets/images/research-page/factify.jpeg",
     citation: {
       vancouver:
-        "@inproceedings{mishra2022factify, title={Factify: A multi-modal fact verification dataset}, author={Mishra, Shreyash and Suryavardan, S and Bhaskar, Amrit and Chopra, Parul and Reganti, Aishwarya and Patwa, Parth and Das, Amitava and Chakraborty, Tanmoy and Sheth, Amit and Ekbal, Asif and others}, booktitle={Proceedings of the First Workshop on Multimodal Fact-Checking and Hate Speech Detection (DE-FACTIFY)}, year={2022}
-         }",
+        "@inproceedings{mishra2022factify, title={Factify: A multi-modal fact verification dataset}, author={Mishra, Shreyash and Suryavardan, S and Bhaskar, Amrit and Chopra, Parul and Reganti, Aishwarya and Patwa, Parth and Das, Amitava and Chakraborty, Tanmoy and Sheth, Amit and Ekbal, Asif and others}, booktitle={Proceedings of the First Workshop on Multimodal Fact-Checking and Hate Speech Detection (DE-FACTIFY)}, year={2022}}",
     },
     abstract:
       "Combating fake news is one of the burning societal crisis. It is difficult to expose false claims before they create a lot of damage. Automatic fact/claim verification has recently become a topic of interest among diverse research communities. Forums like FEVER, FNC aim to discuss automatic fact-checking on text. Research efforts and datasets on text fact verification could be found, but there is not much attention towards multi-modal or cross-modal fact-verification. In order to bring the attention of the research community towards understanding multimodal misinformation, we release a multimodal fact checking dataset named FACTIFY. It is notably the largest multimodal fact verification public dataset consisting of 50K data points, covering news from India and the US. FACTIFY contains images, textual claims, reference textual documents and images labeled with three broad categories namely - support, no-evidence, and refute.",
     absbox: "absPopup2",
   },
 
-  {
-    title:
-      "Benchmarking Multi-Modal Entailment for Fact Verification",
-    authors: "Parth Patwa, Shreyash Mishra, S Suryavardan, Amrit Bhaskar, Parul Chopra, Aishwarya Reganti, Amitava Das, Tanmoy Chakraborty, Amit Sheth, Asif Ekbal, and Chaitanya Ahuja",
-    conferences:
-      "De-Factify: Workshop on Multimodal Fact Checking and Hate Speech Detection, co-located with AAAI 2022. 2022 Vancouver, Canada",
-    researchYr: 2021,
-    citebox: "popup3",
-    image: "assets/images/research-page/factify2.jpeg",
-    citation: {
-      vancouver:
-        "@article{patwa2021benchmarking, title={Benchmarking Multi-Modal Entailment for Fact Verification}, author={Patwa, Parth and Mishra, Shreyash and Suryavardan, S and Bhaskar, Amrit and Chopra, Parul and Reganti, Aishwarya and Das, Amitava and Chakraborty, Tanmoy and Sheth, Amit and Ekbal, Asif and others}, year={2021}}",
-    },
-    abstract:
-      "Fake news can spread quickly on social media and it is important to detect it before it creates lot of damage. Automatic fact/claim verification has recently become a topic of interest among diverse research communities. We present the findings of the Factify shared task, which aims undertake multi-modal fact verification, organized as a part of the De-Factify workshop at AAAI’22. The task is modeled as a multi-modal entailment task, where each input needs to be classified into one of 5 classes based on entailment and modality. A total of 64 teams participated in the Factify shared task, and of them, 9 teams submitted their predictions on test set. The most successful models were BigBird or other variations of BERT. The highest F1 score averaged across all the classes was 76.82%.",
-    absbox: "absPopup3",
-  },
+//  {
+//    title:
+//      "Benchmarking Multi-Modal Entailment for Fact Verification",
+//    authors: "Parth Patwa, Shreyash Mishra, S Suryavardan, Amrit Bhaskar, Parul Chopra, Aishwarya Reganti, Amitava Das, Tanmoy Chakraborty, Amit Sheth, Asif Ekbal, and Chaitanya Ahuja",
+//    conferences:
+//      "De-Factify: Workshop on Multimodal Fact Checking and Hate Speech Detection, co-located with AAAI 2022. 2022 Vancouver, Canada",
+//    researchYr: 2021,
+//    citebox: "popup3",
+//    image: "assets/images/research-page/factify2.jpeg",
+//    citation: {
+//      vancouver:
+//        "@article{patwa2021benchmarking, title={Benchmarking Multi-Modal Entailment for Fact Verification}, author={Patwa, Parth and Mishra, Shreyash and Suryavardan, S and Bhaskar, Amrit and Chopra, Parul and Reganti, Aishwarya and Das, Amitava and Chakraborty, Tanmoy and Sheth, Amit and Ekbal, Asif and others}, year={2021}}",
+//    },
+//    abstract:
+//      "Fake news can spread quickly on social media and it is important to detect it before it creates lot of damage. Automatic fact/claim verification has recently become a topic of interest among diverse research communities. We present the findings of the Factify shared task, which aims undertake multi-modal fact verification, organized as a part of the De-Factify workshop at AAAI’22. The task is modeled as a multi-modal entailment task, where each input needs to be classified into one of 5 classes based on entailment and modality. A total of 64 teams participated in the Factify shared task, and of them, 9 teams submitted their predictions on test set. The most successful models were BigBird or other variations of BERT. The highest F1 score averaged across all the classes was 76.82%.",
+//    absbox: "absPopup3",
+//  },
 
   {
     title:
