@@ -4,20 +4,20 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
+    title: "Relation Extraction (RE) using Deep Learning",
     authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+      "Sriram Chaudhury, Amrit Bhaskar, Arkaprava Nayek, and Vinutha Narayanmurthy",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+      "International Conference on Advanced Computing and Communications (ADCOM)",
+    researchYr: 2018,
     citebox: "popup1",
-    image: "assets/images/research-page/inteferenceNetwork.png",
+    image: "assets/images/research-page/relation_extraction.jpeg",
     citation: {
       vancouver:
-        "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+        "Sriram Chaudhury, Amrit Bhaskar, Arkaprava Nayek, and Vinutha Narayanmurthy. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 24th annual International Conference on Advanced Computing and Communications 2018.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+      "Distant supervised relation extraction is widely used for finding relational facts from texts, but it is coupled with wrong labeling problem, which in turn hurts the model performance. To address this issue, we present a sentence-level attentionbased model for relation extraction, in which we use convolutional neural networks to get the semantics of sentences. Sentence level attention over multiple instances are built, which in turn significantly reduces the weights of the noisy data. We have tested the system with eKYC data and evaluated the results with respect to ownership relation extraction between organizations.",
     absbox: "absPopup1",
   },
 
