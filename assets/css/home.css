@@ -376,6 +376,7 @@ html[light-mode="dark"] .github-icon{
     
   }
   .codeforces:hover .red{
+  content: attr(data-title);
     animation: red-animation 2.5s infinite alternate;
   }
   
