@@ -158,7 +158,7 @@ let footer = $(`
     
 
     <div class="rounded-social-buttons tag">
-    <a class="social-button twitter" data-title="Resume" target="_blank" href="https://amrit-bhaskar-abhask10.github.io/assets/docs/Amrit_Bhaskar_Resume.pdf" download="Amrit_Bhaskar_Resume">
+    <a class="social-button twitter" target="_blank" href="https://amrit-bhaskar-abhask10.github.io/assets/docs/Amrit_Bhaskar_Resume.pdf" download="Amrit_Bhaskar_Resume">
     <!-- SVG code for twitter icon -->
              <svg class="twitter-icon-footer" xmlns="http://www.w3.org/2000/svg" width="45px" height="45px" fill="currentColor" class="codeforces-icon" viewBox="-3 0 20 20" id="IconChangeColor"> <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" id="mainIconPathAttribute" fill="blue" stroke="blue" stroke-width="1" ></path> <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" id="mainIconPathAttribute" fill="blue" stroke="blue" stroke-width="1" ></path> </svg>
     </a>
