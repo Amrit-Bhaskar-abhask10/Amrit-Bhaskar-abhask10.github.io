@@ -121,7 +121,7 @@ const research = [
     image: "assets/images/research-page/patent.png",
     citation: {
       vancouver:
-        "@misc{singh2020method, title={Method and system for generating structured relations between words}, author={Singh, Ankit Kumar and Bhaskar, Amrit and Chopra, Parul and Sibsambhu, KAR}, year={2020}, month=sep # "~10", publisher={Google Patents}, note={US Patent App. 16/358,076} }",
+        "@misc{singh2020method, title={Method and system for generating structured relations between words}, author={Singh, Ankit Kumar and Bhaskar, Amrit and Chopra, Parul and Sibsambhu, KAR}, year={2020}, month=sep # ~10, publisher={Google Patents}, note={US Patent App. 16/358,076} }",
     },
     abstract:
       "A method and system are described for generating structured relations between words in sentences. The method includes generating encoded hidden state vectors using a single layer bi-directional Long Short Term Memory (LSTM) neural network. The method includes generating current hidden state vectors based on word embedding associated with each word at a time stamp ‘t’. The method includes computing attention distribution of each word based on encoded hidden state vectors and current hidden state vectors. The method includes computing context vector of sentences based on attention distribution of each word and the encoded hidden state vectors. The method includes computing vocabulary distribution at time stamp “t” based on context vector and current hidden state vectors. The method includes computing probability distribution of words based on encoded hidden state vectors, current hidden state vectors, and vocabulary distribution. The method includes generating plurality of structured relations between words based on probability distribution.",
