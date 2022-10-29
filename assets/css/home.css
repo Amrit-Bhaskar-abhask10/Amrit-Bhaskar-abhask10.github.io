@@ -388,12 +388,10 @@ html[light-mode="dark"] .github-icon{
   }
   
   .codeforces:hover .yellow{
-   content: attr(data-title);
     animation: yellow-animation 2s infinite alternate-reverse;
   }
   
   .codeforces:hover .blue{
-  content: attr(data-title);
     animation: blue-animation 2s  infinite alternate;
   }
   
