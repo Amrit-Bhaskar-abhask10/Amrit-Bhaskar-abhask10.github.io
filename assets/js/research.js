@@ -39,112 +39,112 @@ const research = [
     absbox: "absPopup2",
   },
 
+  {
+    title:
+      "Benchmarking Multi-Modal Entailment for Fact Verification",
+    authors: "Parth Patwa, Shreyash Mishra, S Suryavardan, Amrit Bhaskar, Parul Chopra, Aishwarya Reganti, Amitava Das, Tanmoy Chakraborty, Amit Sheth, Asif Ekbal, and Chaitanya Ahuja",
+    conferences:
+      "De-Factify: Workshop on Multimodal Fact Checking and Hate Speech Detection, co-located with AAAI 2022. 2022 Vancouver, Canada",
+    researchYr: 2021,
+    citebox: "popup3",
+    image: "assets/images/research-page/factify2.jpeg",
+    citation: {
+      vancouver:
+        "@article{patwa2021benchmarking, title={Benchmarking Multi-Modal Entailment for Fact Verification}, author={Patwa, Parth and Mishra, Shreyash and Suryavardan, S and Bhaskar, Amrit and Chopra, Parul and Reganti, Aishwarya and Das, Amitava and Chakraborty, Tanmoy and Sheth, Amit and Ekbal, Asif and others}, year={2021}}",
+    },
+    abstract:
+      "Fake news can spread quickly on social media and it is important to detect it before it creates lot of damage. Automatic fact/claim verification has recently become a topic of interest among diverse research communities. We present the findings of the Factify shared task, which aims undertake multi-modal fact verification, organized as a part of the De-Factify workshop at AAAI’22. The task is modeled as a multi-modal entailment task, where each input needs to be classified into one of 5 classes based on entailment and modality. A total of 64 teams participated in the Factify shared task, and of them, 9 teams submitted their predictions on test set. The most successful models were BigBird or other variations of BERT. The highest F1 score averaged across all the classes was 76.82%.",
+    absbox: "absPopup3",
+  },
+
+  {
+    title:
+      "Low Resource Sequence Tagging using Sentence Reconstruction",
+    authors:
+      "Tal Perl, Sriram Chaudhury, and Raja Giryes, Acknowledgments: Parul Chopra and Amrit Bhaskar",
+    conferences:
+      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    researchYr: 2020,
+    citebox: "popup4",
+    image: "assets/images/research-page/sequence_tagging.jpeg",
+    citation: {
+      vancouver:
+        "Tal Perl, Sriram Chaudhury, and Raja Giryes. 2020. Low Resource Sequence Tagging using Sentence Reconstruction. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 2692–2698, Online. Association for Computational Linguistics.",
+    },
+    abstract:
+      "This work revisits the task of training sequence tagging models with limited resources using transfer learning. We investigate several proposed approaches introduced in recent works and suggest a new loss that relies on sentence reconstruction from normalized embeddings. Specifically, our method demonstrates how by adding a decoding layer for sentence reconstruction, we can improve the performance of various baselines. We show improved results on the CoNLL02 NER and UD 1.2 POS datasets and demonstrate the power of the method for transfer learning with low-resources achieving 0.6 F1 score in Dutch using only one sample from it.",
+    absbox: "absPopup4",
+  },
+
 //  {
-//    title:
-//      "Benchmarking Multi-Modal Entailment for Fact Verification",
-//    authors: "Parth Patwa, Shreyash Mishra, S Suryavardan, Amrit Bhaskar, Parul Chopra, Aishwarya Reganti, Amitava Das, Tanmoy Chakraborty, Amit Sheth, Asif Ekbal, and Chaitanya Ahuja",
+//    title: "Dual Super-Resolution Learning for Semantic Segmentation",
+//    authors: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
 //    conferences:
-//      "De-Factify: Workshop on Multimodal Fact Checking and Hate Speech Detection, co-located with AAAI 2022. 2022 Vancouver, Canada",
-//    researchYr: 2021,
-//    citebox: "popup3",
-//    image: "assets/images/research-page/factify2.jpeg",
+//      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+//    researchYr: 2020,
+//    citebox: "popup5",
+//    image: "assets/images/research-page/semanticSegmentation.png",
 //    citation: {
 //      vancouver:
-//        "@article{patwa2021benchmarking, title={Benchmarking Multi-Modal Entailment for Fact Verification}, author={Patwa, Parth and Mishra, Shreyash and Suryavardan, S and Bhaskar, Amrit and Chopra, Parul and Reganti, Aishwarya and Das, Amitava and Chakraborty, Tanmoy and Sheth, Amit and Ekbal, Asif and others}, year={2021}}",
+//        "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
 //    },
 //    abstract:
-//      "Fake news can spread quickly on social media and it is important to detect it before it creates lot of damage. Automatic fact/claim verification has recently become a topic of interest among diverse research communities. We present the findings of the Factify shared task, which aims undertake multi-modal fact verification, organized as a part of the De-Factify workshop at AAAI’22. The task is modeled as a multi-modal entailment task, where each input needs to be classified into one of 5 classes based on entailment and modality. A total of 64 teams participated in the Factify shared task, and of them, 9 teams submitted their predictions on test set. The most successful models were BigBird or other variations of BERT. The highest F1 score averaged across all the classes was 76.82%.",
-//    absbox: "absPopup3",
+//      "This is currently left empty and this can be considered as a dummy data 5",
+//    absbox: "absPopup5",
+//  },
+
+//  {
+//    title: "Deep Unfolding Network for Image Super-Resolution",
+//    authors: "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
+//    conferences:
+//      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+//    researchYr: 2020,
+//    citebox: "popup6",
+//    image: "assets/images/research-page/deepNetwork.png",
+//    citation: {
+//      vancouver:
+//        "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
+//    },
+//    abstract:
+//      "This is currently left empty and this can be considered as a dummy data 6",
+//    absbox: "absPopup6",
 //  },
 
   {
     title:
-      "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-    authors:
-      "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
+      "Method and system for generating structured relations between words",
+    authors: "Ankit Kumar Singh, Amrit Bhaskar, Parul Chopra, and Sibsambhu KAR",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup4",
-    image: "assets/images/research-page/dialogueState.png",
-    citation: {
-      vancouver:
-        "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 4",
-    absbox: "absPopup4",
-  },
-
-  {
-    title: "Dual Super-Resolution Learning for Semantic Segmentation",
-    authors: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup5",
-    image: "assets/images/research-page/semanticSegmentation.png",
-    citation: {
-      vancouver:
-        "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 5",
-    absbox: "absPopup5",
-  },
-
-  {
-    title: "Deep Unfolding Network for Image Super-Resolution",
-    authors: "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup6",
-    image: "assets/images/research-page/deepNetwork.png",
-    citation: {
-      vancouver:
-        "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 6",
-    absbox: "absPopup6",
-  },
-
-  {
-    title:
-      "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-    authors: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
+      "Google Patents",
+    researchYr: 2019,
     citebox: "popup7",
-    image: "assets/images/research-page/imageDecomposition.png",
+    image: "assets/images/research-page/patent.png",
     citation: {
       vancouver:
-        "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
+        "@misc{singh2020method, title={Method and system for generating structured relations between words}, author={Singh, Ankit Kumar and Bhaskar, Amrit and Chopra, Parul and Sibsambhu, KAR}, year={2020}, month=sep # "~10", publisher={Google Patents}, note={US Patent App. 16/358,076} }",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 7",
+      "A method and system are described for generating structured relations between words in sentences. The method includes generating encoded hidden state vectors using a single layer bi-directional Long Short Term Memory (LSTM) neural network. The method includes generating current hidden state vectors based on word embedding associated with each word at a time stamp ‘t’. The method includes computing attention distribution of each word based on encoded hidden state vectors and current hidden state vectors. The method includes computing context vector of sentences based on attention distribution of each word and the encoded hidden state vectors. The method includes computing vocabulary distribution at time stamp “t” based on context vector and current hidden state vectors. The method includes computing probability distribution of words based on encoded hidden state vectors, current hidden state vectors, and vocabulary distribution. The method includes generating plurality of structured relations between words based on probability distribution.",
     absbox: "absPopup7",
   },
-  {
-    title:
-      "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-    authors:
-      "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup8",
-    image: "assets/images/research-page/neuralNetworks.jpg",
-    citation: {
-      vancouver:
-        "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 8",
-    absbox: "absPopup8",
-  },
+//  {
+//    title:
+//      "Forward and Backward Information Retention for Accurate Binary Neural Networks",
+//    authors:
+//      "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
+//    conferences:
+//      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+//    researchYr: 2020,
+//    citebox: "popup8",
+//    image: "assets/images/research-page/neuralNetworks.jpg",
+//    citation: {
+//      vancouver:
+//        "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
+//    },
+//    abstract:
+//      "This is currently left empty and this can be considered as a dummy data 8",
+//    absbox: "absPopup8",
+//  },
 ];
 AOS.init();
 const fillData = () => {
