@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
     {
       title: "Iris Dataset Classification",
-      cardImage: "assets/images/project-page/iris_classification.jpeg",
+      cardImage: "assets/images/project-page/flappybird.png",
       description: "A sample jupyter notebook on modelling for Iris dataset",
       tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
       Previewlink: "https://github.com/Amrit-Bhaskar-abhask10/Data_Science_Challenge_Iris_dataset/blob/master/Solution_notebook.ipynb",
