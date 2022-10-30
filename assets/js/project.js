@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "Zero Shot Relation Extraction",
-    cardImage: "assets/images/project-page/zero_shot_relation_extraction.jpeg",
+    cardImage: "assets/images/project-page/zero_shot_reln_extraction.jpeg",
     description: "Zero shot Relation Extraction",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "https://github.com/Amrit-Bhaskar-abhask10/CSE_598_Zero_Shot_Relation_Extraction/blob/main/Zero-shot%20Learning%20for%20Relation%20Extraction.pdf",

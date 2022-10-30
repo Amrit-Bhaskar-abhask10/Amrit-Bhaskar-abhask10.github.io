@@ -29,7 +29,7 @@ const research = [
       "De-Factify: Workshop on Multimodal Fact Checking and Hate Speech Detection, co-located with AAAI 2022. 2022 Vancouver, Canada",
     researchYr: 2022,
     citebox: "popup2",
-    image: "assets/images/research-page/factify.jpeg",
+    image: "assets/images/research-page/factify1.jpeg",
     citation: {
       vancouver:
         "@inproceedings{mishra2022factify, title={Factify: A multi-modal fact verification dataset}, author={Mishra, Shreyash and Suryavardan, S and Bhaskar, Amrit and Chopra, Parul and Reganti, Aishwarya and Patwa, Parth and Das, Amitava and Chakraborty, Tanmoy and Sheth, Amit and Ekbal, Asif and others}, booktitle={Proceedings of the First Workshop on Multimodal Fact-Checking and Hate Speech Detection (DE-FACTIFY)}, year={2022}}",
