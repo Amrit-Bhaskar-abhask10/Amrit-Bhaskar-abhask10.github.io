@@ -5,6 +5,22 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
+    {
+      title: "Iris Dataset Classification",
+      cardImage: "assets/images/project-page/iris_classification.jpeg",
+      description: "A sample jupyter notebook on modelling for Iris dataset",
+      tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+      Previewlink: "https://github.com/Amrit-Bhaskar-abhask10/Data_Science_Challenge_Iris_dataset/blob/master/Solution_notebook.ipynb",
+      Githublink: "https://github.com/Amrit-Bhaskar-abhask10/Data_Science_Challenge_Iris_dataset",
+    },
+    {
+      title: "Zero Shot Relation Extraction",
+      cardImage: "assets/images/project-page/zero_shot_reln_extraction.jpeg",
+      description: "Zero shot Relation Extraction",
+      tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
+      Previewlink: "https://github.com/Amrit-Bhaskar-abhask10/CSE_598_Zero_Shot_Relation_Extraction/blob/main/Zero-shot%20Learning%20for%20Relation%20Extraction.pdf",
+      Githublink: "https://github.com/Amrit-Bhaskar-abhask10/CSE_598_Zero_Shot_Relation_Extraction",
+    },
   {
     title: "Flappy Bird",
     cardImage: "assets/images/project-page/flappybird.png",
