@@ -10,8 +10,8 @@ const projects = [
       cardImage: "assets/images/project-page/iris_classification.jpeg",
       description: "A sample jupyter notebook on modelling for Iris dataset",
       tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-      Previewlink: "https://github.com/Amrit-Bhaskar-abhask10/Data_Science_Challenge_Iris_dataset/blob/master/Solution_notebook.ipynb",
-      Githublink: "https://github.com/Amrit-Bhaskar-abhask10/Data_Science_Challenge_Iris_dataset",
+      Previewlink: https://github.com/Amrit-Bhaskar-abhask10/Data_Science_Challenge_Iris_dataset/blob/master/Solution_notebook.ipynb,
+      Githublink: https://github.com/Amrit-Bhaskar-abhask10/Data_Science_Challenge_Iris_dataset,
     },
     {
       title: "Zero Shot Relation Extraction",
