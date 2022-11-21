@@ -62,29 +62,29 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "GluonTS - Probabilistic Time Series Modeling in Python",
+    cardImage: "assets/images/experience-page/gluonts.jpeg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Responsible for fixing the bug in Anomaly detection code.<https://github.com/awslabs/gluonts>",
   },
-  {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
-    description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-  },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
+//  {
+//    title: "StudentCode-in 2020",
+//    cardImage: "assets/images/experience-page/2.jpg",
+//    description:
+//      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+//  },
+//  {
+//    title: "PClub Summer Of Code 2020",
+//    cardImage: "assets/images/experience-page/3.jpg",
+//    description:
+//      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+//  },
+//  {
+//    title: "Hakin-Codes",
+//    cardImage: "assets/images/experience-page/4.jpg",
+//    description:
+//      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+//  },
 ];
 
 const showCards = () => {
