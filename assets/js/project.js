@@ -22,7 +22,7 @@ const projects = [
       Githublink: "https://github.com/Amrit-Bhaskar-abhask10/CSE_598_Zero_Shot_Relation_Extraction",
     },
     {
-      title: "Coffeehouse Challenge",
+      title: "Starbucks Challenge",
       cardImage: "assets/images/project-page/starbucks.jpeg",
       description: "Predict truck unload time",
       tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
@@ -30,7 +30,7 @@ const projects = [
       Githublink: "https://github.com/Amrit-Bhaskar-abhask10/American_coffeehouse_truck_unload_time/blob/main/code.ipynb",
     },
     {
-      title: "Sneaker Sales Analysis",
+      title: "Shopify Challenge",
       cardImage: "assets/images/project-page/shopify.png",
       description: "Data Analysis- pandas and SQL",
       tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
