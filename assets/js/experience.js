@@ -62,10 +62,10 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GluonTS - Probabilistic Time Series Modeling in Python",
+    title: "GluonTS - Probabilistic Time Series Modeling",
     cardImage: "assets/images/experience-page/gluonts.jpeg",
     description:
-      "Anomaly detection code. https://github.com/awslabs/gluonts",
+      "Fixed bug - Anomaly detection. https://github.com/awslabs/gluonts/blob/dev/examples/anomaly_detection.py",
   },
 //  {
 //    title: "StudentCode-in 2020",
