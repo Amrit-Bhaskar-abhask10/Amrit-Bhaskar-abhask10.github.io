@@ -65,7 +65,7 @@ const volunteershipcards = [
     title: "GluonTS - Probabilistic Time Series Modeling in Python",
     cardImage: "assets/images/experience-page/gluonts.jpeg",
     description:
-      "Responsible for fixing the bug in Anomaly detection code.<https://github.com/awslabs/gluonts>",
+      "Anomaly detection code. https://github.com/awslabs/gluonts",
   },
 //  {
 //    title: "StudentCode-in 2020",
