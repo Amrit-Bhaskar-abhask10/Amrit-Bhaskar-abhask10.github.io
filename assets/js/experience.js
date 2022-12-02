@@ -20,7 +20,7 @@ const exp = [
   },
   {
     title: "Project Engineer",
-    cardImage: "assets/images/experience-page/wipro.jpeg",
+    cardImage: "assets/images/experience-page/wipro2.jpeg",
     place: "Wipro, Bengaluru, India",
     time: "(Aug, 2017 - Oct, 2019)",
     desp: "<li>Relation Extraction: Developed supervised DL models using CNN and attention-based bi-LSTM with ELMO embeddings with 0.8 F-1 scores. Built, Presented, and Delivered frontend UI for internal use using Tkinter.</li><li>Sequence tagging: Built a deep learning model for sequence tagging for accurate information extraction using GAN-based transfer learning between distant domains. Enhanced accuracy by 10% over the state-of-art results.</li><li>Intent Detection with Zero-Shot Learning: Built an intent classification model using CNN and Capsule Network. Used zero-shot learning on intents when no labeled utterances are present with a 0.76 F1 score.</li><li>Neural Machine Translation: Assessed and Tested approaches like Attention-based seq2seq and Transformer to create a single multilingual model for 7 Indian languages, achieved a BLEU score of 26.25 for Hindi-English.</li><li>Document Clustering: Built an unsupervised document clustering model using K-means with 75% accuracy.</li>",
