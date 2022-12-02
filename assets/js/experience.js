@@ -65,7 +65,8 @@ const volunteershipcards = [
     title: "GluonTS - Probabilistic Time Series Modeling",
     cardImage: "assets/images/experience-page/gluonts.jpeg",
     description:
-      "Fixed bug - Anomaly detection. https://github.com/awslabs/gluonts/blob/dev/examples/anomaly_detection.py",
+      "Fixed bug - Anomaly detection",
+    open_link:"https://github.com/awslabs/gluonts/blob/dev/examples/anomaly_detection.py",
   },
 //  {
 //    title: "StudentCode-in 2020",
@@ -90,13 +91,13 @@ const volunteershipcards = [
 const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
+    ({ title, cardImage, description, open_link }) =>
       (output += `        
       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
       <div class="content">
-          <h2 class="volunteerTitle">${title}</h2><br>
+          <h2 class="volunteerTitle"><a href="${open_link}"> ${title}</a></h2><br>
           <p class="copy">${description}</p></div>
       
       </div>
