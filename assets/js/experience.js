@@ -68,12 +68,13 @@ const volunteershipcards = [
       "Fixed bug - Anomaly detection",
     open_link:"https://github.com/awslabs/gluonts/blob/dev/examples/anomaly_detection.py",
   },
-//  {
-//    title: "StudentCode-in 2020",
-//    cardImage: "assets/images/experience-page/2.jpg",
-//    description:
-//      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-//  },
+ {
+   title: "Apache Sedona",
+   cardImage: "assets/images/experience-page/apache_sedona.jpeg",
+   description:
+     "Added ST_NDims function",
+     open_link:"https://github.com/apache/incubator-sedona/pull/720",
+ },
 //  {
 //    title: "PClub Summer Of Code 2020",
 //    cardImage: "assets/images/experience-page/3.jpg",
