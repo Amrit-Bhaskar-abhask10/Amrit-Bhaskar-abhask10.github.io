@@ -213,10 +213,7 @@ const fillData = () => {
                             ${citation.vancouver}    
                         </div>
                     </div>
-                    <div id="${web_link}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse" onclick="window.open('${web_link}','_blank');">
-                        <div class="card-body">
-                            ${citation.vancouver}    
-                        </div>
+                    <div id="${web_box}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse" onclick="window.open('${web_link}','_blank');">
                     </div>
                 </td>
             </tr>`)
