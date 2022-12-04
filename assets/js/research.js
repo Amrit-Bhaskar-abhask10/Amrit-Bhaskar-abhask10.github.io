@@ -199,7 +199,7 @@ const fillData = () => {
                             CITE
                         </button>
 
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${web_box}" aria-expanded="false" aria-controls="${web_box}">
+                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${web_box}" aria-expanded="false" aria-controls="${web_box}" onclick="window.open('${web_link}','_blank')">
                             LINK
                         </button>
                     </div>
@@ -212,9 +212,6 @@ const fillData = () => {
                         <div class="card-body">
                             ${citation.vancouver}    
                         </div>
-                    </div>
-                    <div id="${web_box}" aria-labelledby="headingTwo" onclick="window.open('${web_link}','_blank');">
-                    </div>
                 </td>
             </tr>`)
   );
