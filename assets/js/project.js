@@ -45,14 +45,14 @@ const projects = [
       Previewlink: "https://github.com/Amrit-Bhaskar-abhask10/Anomaly_Detection/blob/main/deepar_multiple_time_series.ipynb",
       Githublink: "https://github.com/Amrit-Bhaskar-abhask10/Anomaly_Detection",
     },
-//  {
-//    title: "Poker Game",
-//    cardImage: "assets/images/project-page/poker.jpg",
-//    description: "Poker game built using typescript.",
-//    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
-//    Previewlink: "",
-//    Githublink: "",
-//  },
+  {
+    title: "ML Scratch Code",
+    cardImage: "assets/images/project-page/ml_scratch.png",
+    description: "KNN, KMeans, and GMM",
+    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    Previewlink: "https://github.com/Amrit-Bhaskar-abhask10/ML_models_from_scratch/blob/main/README.md",
+    Githublink: "https://github.com/Amrit-Bhaskar-abhask10/ML_models_from_scratch",
+  },
 //  {
 //    title: "Tic Tac Toe Game",
 //    cardImage: "assets/images/project-page/tic-tac-toe.png",
