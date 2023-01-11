@@ -38,12 +38,12 @@ const projects = [
       Githublink: "https://github.com/Amrit-Bhaskar-abhask10/Data_Science_challenge",
     },
     {
-      title: "Anamoly Detection",
+      title: "Anomaly Detection",
       cardImage: "assets/images/project-page/anamoly.jpeg",
       description: "Supervised and Unsupervised Methods",
       tagimg:"https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
-      Previewlink: "https://github.com/Amrit-Bhaskar-abhask10/Anamoly_Detection/blob/main/deepar_multiple_time_series.ipynb",
-      Githublink: "https://github.com/Amrit-Bhaskar-abhask10/Anamoly_Detection",
+      Previewlink: "https://github.com/Amrit-Bhaskar-abhask10/Anomaly_Detection/blob/main/deepar_multiple_time_series.ipynb",
+      Githublink: "https://github.com/Amrit-Bhaskar-abhask10/Anomaly_Detection",
     },
 //  {
 //    title: "Poker Game",
